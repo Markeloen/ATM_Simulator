@@ -14,7 +14,7 @@ parent_directory = os.path.dirname(script_directory)
 sys.path.append(parent_directory)
 
 from PhaseScreens.PhaseScreenGen import *
-from basic_funcs import *
+from .basic_funcs import *
 
 
 class propagator:
